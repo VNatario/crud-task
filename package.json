@@ -1,0 +1,13 @@
+{
+  "name": "crud-task",
+  "version": "1.0.0",
+  "description": "Desafio de criar um CRUD simples usando Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Vitor Natario",
+  "license": "ISC",
+  "type": "module"
+}
