@@ -3,7 +3,8 @@ import fs from "node:fs/promises";
 const databasePath = new URL("../db.json", import.meta.url);
 
 export class Database {
-  #database = {};
+  #database: Record<string, any[]> = {};
+
   constructor() {
     fs.readFile(databasePath, "utf8")
       .then((data) => {
