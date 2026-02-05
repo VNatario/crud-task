@@ -1,0 +1,22 @@
+# Dependências
+node_modules/
+dist/
+build/
+
+# Logs e arquivos de sistema
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+
+# Configurações de IDE
+.vscode/
+.idea/
+
+# Variáveis de ambiente (caso venha a usar)
+.env
+.env.local
+
+# Banco de dados local (JSON)
+db.json
